@@ -1,6 +1,8 @@
 let choices = ["rock", "paper", "scissors"];
 
 // GETTING USER INPUT
+
+function computerPlay() {
 const userInput = prompt("Do you choose rock, paper or scissors?").toLocaleLowerCase(); 
     if(userInput ==="paper" || userInput ==="rock" || userInput ==="scissors"){
         console.log("You chose " + `${userInput}`);
@@ -49,6 +51,13 @@ function declareWinner(userInput, computerInput) {
     }  
 }
 declareWinner();
+}
+computerPlay();
+computerPlay();
+computerPlay();
+computerPlay();
+computerPlay();
+
 
 
 
